@@ -20,7 +20,7 @@
     <header class="header-section">
       <div class="container header-container">
         <nav class="navbar">
-          <a class="icon-header" href="./index.html"
+          <a class="icon-header main-icon" href="./index.html"
             >Web<span class="accent-header">Studio</span>
           </a>
           <ul class="navbar-links">
@@ -45,13 +45,20 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
       <section class="section hero-section">
         <div class="hero-container container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">Order Service</button>
+          <button class="button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="section advantages-section">
@@ -424,7 +431,7 @@
     <footer class="footer-section">
       <div class="footer-container container">
         <div class="footer-logo">
-          <a class="icon-header icon-footer" href="./index.html"
+          <a class="main-icon icon-footer" href="./index.html"
             >Web<span class="accent-footer">Studio</span></a
           >
           <p class="footer-description">
@@ -486,9 +493,9 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay" data-modal>
       <div class="modal">
-        <button class="close-button" type="button">
+        <button class="close-button" type="button" data-modal-close>
           <svg class="close-modal" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -577,5 +584,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
