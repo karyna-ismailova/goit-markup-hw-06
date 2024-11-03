@@ -45,15 +45,15 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn">
+        <button class="burger-btn" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-menu>
         <div class="mobile-menu-top">
-          <button class="mobile-close-button" type="button" data-modal-close>
+          <button class="mobile-close-button" type="button" data-menu-close>
             <svg class="close-mobile" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -803,5 +803,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
