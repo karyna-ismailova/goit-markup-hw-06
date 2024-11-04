@@ -705,7 +705,12 @@ textarea{
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
 }
+
 
 .input-textarea{
 
