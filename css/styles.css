@@ -503,9 +503,6 @@ button:focus{
 }
 
 
-
-
-
 .app-links-footer .link {
     display: flex;
     justify-content: center;
@@ -595,10 +592,10 @@ button:focus{
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
     border-radius: 4px;
-    width: 408px;
-    min-height: 584px;
+    width: 288px;
+    min-height: 623px;
     overflow-y: auto;
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 24px 16px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -780,7 +777,7 @@ textarea{
     justify-content: center;
     fill: transparent;
 }
-.modal-checkbox:checked+ label .checkbox-sign{
+.modal-checkbox:checked + label .checkbox-sign{
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
@@ -813,7 +810,6 @@ textarea{
     .address-links {
         display: flex;
         flex-direction: column;
-        padding: 16px 0;
     }
     .item-one {
         color: #404bbf;
@@ -928,6 +924,11 @@ textarea{
     .footer-input{
             width: 264px;
     }
+    .modal{
+        width: 408px;
+        min-height: 584px;
+        padding: 72px 24px 24px 24px;
+    }
 }
 
 @media screen and (min-width:1158px){
@@ -1011,10 +1012,12 @@ textarea{
         padding-top: 100px;
     }
     .footer-container{
+        gap: 0px;
         flex-wrap: nowrap;
         align-items: baseline;
     }
     .footer-description{
+   
         min-width: 264px;
     }
     .footer-form {
