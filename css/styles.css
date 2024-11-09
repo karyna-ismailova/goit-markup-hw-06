@@ -892,7 +892,7 @@ textarea{
         font-weight: 400;
     }
     .team-container{
-        min-width:584px;
+        width:584px;
     }
     .team-list{
         gap: 24px;
