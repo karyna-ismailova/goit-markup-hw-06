@@ -794,7 +794,7 @@ textarea{
     .container {
         max-width: 768px;
         padding: 0 16px;
-        }
+    }
     .sub-title{
         text-align: left;
     }
@@ -1008,6 +1008,9 @@ textarea{
         gap: 24px;
     }
 
+    .team-container{
+        width: 1158px;
+    }
     .team-list{
         gap: 24px;
     }
