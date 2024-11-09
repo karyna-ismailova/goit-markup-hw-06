@@ -891,8 +891,8 @@ textarea{
     .advantages-article {
         font-weight: 400;
     }
-    .team-section{
-        min-width: 584px;
+    .team-container{
+        min-width:584px;
     }
     .team-list{
         gap: 24px;
